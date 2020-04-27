@@ -9,3 +9,9 @@ def mutiply(x,y):
 def inc(x):
     return x + 1
 
+def divide(x,y):
+    if y > 0:
+        return x/y 
+    else:
+        raise ZeroDivisionError("Division by zero not allowed!!!") 
+
