@@ -1,7 +1,7 @@
 import sys
 import unittest
 
-from src.main import add, inc
+from src.main import add, inc, mutiply
 
 
 class MainTestCase(unittest.TestCase):
@@ -10,6 +10,9 @@ class MainTestCase(unittest.TestCase):
 
     def test_inc(self):
         self.assertEqual(inc(5),6)
+
+    def test_multiply(self):
+        self.assertEqual(mutiply(2,3), 6)
 
 if __name__ == "__main__":
     unittest.main()
