@@ -14,7 +14,7 @@ class MainTestCase(unittest.TestCase):
     def test_multiply(self):
         self.assertEqual(mutiply(2,3), 6)
     
-    def test_rem(self):
+    def test_subtract(self):
         self.assertEqual(subt(5,3), 2)
 
 if __name__ == "__main__":
